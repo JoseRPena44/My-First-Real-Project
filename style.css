@@ -67,6 +67,7 @@ li{
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
+    padding: 0 12px;
 }
 
 .text--blue {
@@ -217,6 +218,7 @@ nav {
 
 .language__list {
     display: flex;
+    justify-content: center;
     width: 100%;
     flex-wrap: wrap;
 }
@@ -370,10 +372,24 @@ footer {
     opacity: 1;
 }
 
-/* SMALL PHONES */
+/* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
 
 @media (max-width: 768px) {
+  nav {
+    height: 68px;
+  }
 
+  h1 {
+    font-size: 28px;
+  }
+
+  .about-me__info--para {
+    font-size: 18px;
+  }
+ 
+ .language {
+        width: calc(100% / 3);
+    }
 
 
 }
